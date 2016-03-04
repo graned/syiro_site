@@ -1,6 +1,12 @@
 {
-  "db": {
-    "name": "db",
-    "connector": "memory"
+  "main": {
+    "name"      : "postgresql",
+    "connector" : "postgresql",
+    "host"      : "localhost",
+    "port"      : "5432",
+    "database"  : "syiroDB",
+    "user"      : "postgresql",
+    "password"  : "",
+    "debug"     : true
   }
 }

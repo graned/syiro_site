@@ -14,22 +14,27 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "main",
+    "public": false
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "main",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "main",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "main",
     "public": false
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "main",
     "public": false
+  },
+  "AppUser": {
+    "dataSource": "main",
+    "public": true
   }
 }
